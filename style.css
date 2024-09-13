@@ -73,6 +73,7 @@ section:first-child h2{
 }
 
 section:first-child button{
+  border-color: black;
   width: 25em;
   height: 4.7em;
   background: linear-gradient(270deg, #ff2600, #fc8b00);
@@ -100,8 +101,8 @@ section:nth-of-type(2) p{
   padding-bottom: 1.5em;
 }
 
-section:nth-of-type(2) button{
-  width: 100%;
+button{
+  width: 90vw;
   height: 4em;
   background: linear-gradient(270deg, rgb(82, 82, 82), rgb(51, 51, 51));
   border-color: #78838A;
@@ -133,8 +134,21 @@ section:nth-of-type(3) video:nth-of-type(2){
   padding-bottom: 8em;
 }
 
-/* section:nth-of-type(4) article:first-of-type{
-  width: ;
-  height: ;
-  background: url(img/);
-} */
+section:nth-of-type(4) article:first-of-type{
+  height: 35vh;
+  object-fit: cover;
+  background: url(img/senna_img.png);
+  background-size: 100%, 100vw;
+  padding: 1em;
+}
+section:nth-of-type(4) button{
+  background-color: transparent;
+}
+
+section:nth-of-type(4) article{
+  height: 65vh;
+  background: url(img/2_mclaren.jpg);
+  background-size: 100%, 100vw;
+  padding: 1em;
+}
+
