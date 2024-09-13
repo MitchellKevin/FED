@@ -104,11 +104,11 @@ section:nth-of-type(2) p{
 button{
   width: 90vw;
   height: 4em;
-  background: linear-gradient(270deg, rgb(82, 82, 82), rgb(51, 51, 51));
-  border-color: #78838A;
+  background-color: transparent;
+  border-color: #ffffff;
   border-width: .2em;
   border-style: solid;
-  color: #78838A;
+  color: #ffffff;
 }
 
 section:nth-of-type(2) button:hover{
@@ -138,17 +138,42 @@ section:nth-of-type(4) article:first-of-type{
   height: 35vh;
   object-fit: cover;
   background: url(img/senna_img.png);
-  background-size: 100%, 100vw;
+  background-size: cover;
   padding: 1em;
 }
-section:nth-of-type(4) button{
-  background-color: transparent;
-}
 
-section:nth-of-type(4) article{
-  height: 65vh;
+section:nth-of-type(4) article:nth-of-type(2){
+  height: 55vh;
   background: url(img/2_mclaren.jpg);
-  background-size: 100%, 100vw;
+  background-size: cover;
   padding: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+section:nth-of-type(4) article:last-of-type{
+  background: url(img/mclaren_gts.png);
+  background-size: cover;
+  height: 55vh;
+  padding: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section:nth-of-type(5) article:first-of-type{
+  background: url(img/artura.jpg);
+  background-size: cover;
+  height: 40vh;
+  padding: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section:nth-of-type(5) article:last-of-type{
+  background: url(img/piastri.jpg);
+  background-size: cover;
+  height: 40vh;
+  padding: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
