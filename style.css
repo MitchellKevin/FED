@@ -178,7 +178,6 @@ video{
   background-position: center;
 }
 
-<<<<<<< HEAD
 section:nth-of-type(6) article{
   background-size: cover;
   height: 40vh;
@@ -210,7 +209,7 @@ section:nth-of-type(6) article:nth-of-type(5){
 section:nth-of-type(6) article:last-of-type{
   background: url(img/bg_section_1.jpg);
 }
-=======
+
 .h section:nth-of-type(4) h1:first-of-type{
   font-size: 2.5em;
   margin-bottom: 0;
@@ -258,4 +257,3 @@ section:nth-of-type(6) article:last-of-type{
 .dp section:nth-last-of-type(2){
   height: 100vh;
 }
->>>>>>> 234a23128152284db59310c0b929bc2c22db5ce2
