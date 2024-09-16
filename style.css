@@ -49,13 +49,13 @@ body {
   color: rgb(255, 255, 255);
 }
 
-section:first-child{
+.h section:first-child{
   background-image: url(img/bg_section_1.jpg);
   background-size: 100%;
   height: 90vh;
 }
 
-section:first-child h1{
+.h section:first-child h1{
   font-size: 2.5em;
   width: 90%;
   padding-left: 0.8em;
@@ -66,13 +66,13 @@ h1, h2, h3, p{
   font-weight: 300;
   color:  white;
 }
-section:first-child h2{
+.h section:first-child h2{
   font-size: 1.1em;
   padding-top: 4em;
   padding-left: 1.5em;
 }
 
-section:first-child button{
+.h section:first-child button{
   border-color: black;
   width: 25em;
   height: 4.7em;
@@ -81,29 +81,29 @@ section:first-child button{
   transform: translateX(5%)
 }
 
-section:first-child button a{
+.h section:first-child button a{
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
 
-section:nth-of-type(2){
+.h section:nth-of-type(2){
   background: linear-gradient(270deg, rgb(82, 82, 82), rgb(51, 51, 51));
   color: white;
   padding: 1em;
 }
 
-section:nth-of-type(2) h1{
+.h section:nth-of-type(2) h1{
   font-size: 2.5em;
 }
-section:nth-of-type(2) p{
+.h section:nth-of-type(2) p{
   padding-bottom: 1.5em;
 }
 
 button{
   width: 90vw;
-  height: 4em;
+  height: 3.5em;
   background-color: transparent;
   border-color: #ffffff;
   border-width: .2em;
@@ -111,12 +111,12 @@ button{
   color: #ffffff;
 }
 
-section:nth-of-type(2) button:hover{
+.h section:nth-of-type(2) button:hover{
   color:rgb(211, 209, 209);
   border-color:rgb(211, 209, 209);
 }
 
-section:nth-of-type(3){
+.h section:nth-of-type(3){
   background: black;
   padding: 1em;
   padding-top: 4em;
@@ -126,23 +126,23 @@ video{
   width: 90vw;
 }
 
-section:nth-of-type(3) img{
+.h section:nth-of-type(3) img{
   width: 90vw;
 }
 
-section:nth-of-type(3) video:nth-of-type(2){
+.h section:nth-of-type(3) video:nth-of-type(2){
   padding-bottom: 8em;
 }
 
-section:nth-of-type(4) article:first-of-type{
-  height: 35vh;
+.h section:nth-of-type(4) article:first-of-type{
+  height: 40vh;
   object-fit: cover;
   background: url(img/senna_img.png);
   background-size: cover;
   padding: 1em;
 }
 
-section:nth-of-type(4) article:nth-of-type(2){
+.h section:nth-of-type(4) article:nth-of-type(2){
   height: 55vh;
   background: url(img/2_mclaren.jpg);
   background-size: cover;
@@ -151,7 +151,7 @@ section:nth-of-type(4) article:nth-of-type(2){
   background-position: center;
 }
 
-section:nth-of-type(4) article:last-of-type{
+.h section:nth-of-type(4) article:last-of-type{
   background: url(img/mclaren_gts.png);
   background-size: cover;
   height: 55vh;
@@ -160,7 +160,7 @@ section:nth-of-type(4) article:last-of-type{
   background-position: center;
 }
 
-section:nth-of-type(5) article:first-of-type{
+.h section:nth-of-type(5) article:first-of-type{
   background: url(img/artura.jpg);
   background-size: cover;
   height: 40vh;
@@ -169,7 +169,7 @@ section:nth-of-type(5) article:first-of-type{
   background-position: center;
 }
 
-section:nth-of-type(5) article:last-of-type{
+.h section:nth-of-type(5) article:last-of-type{
   background: url(img/piastri.jpg);
   background-size: cover;
   height: 40vh;
@@ -178,6 +178,7 @@ section:nth-of-type(5) article:last-of-type{
   background-position: center;
 }
 
+<<<<<<< HEAD
 section:nth-of-type(6) article{
   background-size: cover;
   height: 40vh;
@@ -209,3 +210,52 @@ section:nth-of-type(6) article:nth-of-type(5){
 section:nth-of-type(6) article:last-of-type{
   background: url(img/bg_section_1.jpg);
 }
+=======
+.h section:nth-of-type(4) h1:first-of-type{
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+.h section:nth-of-type(4) button:first-of-type{
+  margin-bottom: 0;
+}
+
+.h section:nth-of-type(5) button{
+  border: 0;
+}
+
+/* Detail page */
+.dp section:first-of-type{
+  position: relative;
+  width: 100vw;
+  height: 55vh;
+}
+
+.dp h1:first-of-type{
+  position: absolute;
+  left: .5em;
+  bottom: 1em;
+  font-size: 2.8em;
+}
+
+.dp p:first-of-type{
+  position: absolute;
+  margin-bottom: -1em;
+  left: 1.1em;
+  bottom: 8em;
+  font-size: 1.2em;
+}
+
+.dp video:first-of-type{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dp section:nth-of-type(2) p, h2{
+  color: black;
+}
+
+.dp section:nth-last-of-type(2){
+  height: 100vh;
+}
+>>>>>>> 234a23128152284db59310c0b929bc2c22db5ce2
