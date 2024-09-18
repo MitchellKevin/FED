@@ -49,13 +49,13 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.h section:first-child{
+section:first-child{
   background-image: url(img/bg_section_1.jpg);
   background-size: 100%;
   height: 90vh;
 }
 
-.h section:first-child h1{
+section:first-child h1{
   font-size: 2.5em;
   width: 90%;
   padding-left: 0.8em;
@@ -66,13 +66,13 @@ h1, h2, h3, p{
   font-weight: 300;
   color:  white;
 }
-.h section:first-child h2{
+section:first-child h2{
   font-size: 1.1em;
   padding-top: 4em;
   padding-left: 1.5em;
 }
 
-.h section:first-child button{
+section:first-child button{
   border-color: black;
   width: 25em;
   height: 4.7em;
@@ -81,23 +81,23 @@ h1, h2, h3, p{
   transform: translateX(5%)
 }
 
-.h section:first-child button a{
+section:first-child button a{
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
 
-.h section:nth-of-type(2){
+section:nth-of-type(2){
   background: linear-gradient(270deg, rgb(82, 82, 82), rgb(51, 51, 51));
   color: white;
   padding: 1em;
 }
 
-.h section:nth-of-type(2) h1{
+section:nth-of-type(2) h1{
   font-size: 2.5em;
 }
-.h section:nth-of-type(2) p{
+section:nth-of-type(2) p{
   padding-bottom: 1.5em;
 }
 
@@ -111,12 +111,12 @@ button{
   color: #ffffff;
 }
 
-.h section:nth-of-type(2) button:hover{
+section:nth-of-type(2) button:hover{
   color:rgb(211, 209, 209);
   border-color:rgb(211, 209, 209);
 }
 
-.h section:nth-of-type(3){
+section:nth-of-type(3){
   background: black;
   padding: 1em;
   padding-top: 4em;
@@ -126,15 +126,15 @@ video{
   width: 90vw;
 }
 
-.h section:nth-of-type(3) img{
+section:nth-of-type(3) img{
   width: 90vw;
 }
 
-.h section:nth-of-type(3) video:nth-of-type(2){
+section:nth-of-type(3) video:nth-of-type(2){
   padding-bottom: 8em;
 }
 
-.h section:nth-of-type(4) article:first-of-type{
+section:nth-of-type(4) article:first-of-type{
   height: 40vh;
   object-fit: cover;
   background: url(img/senna_img.png);
@@ -142,7 +142,7 @@ video{
   padding: 1em;
 }
 
-.h section:nth-of-type(4) article:nth-of-type(2){
+section:nth-of-type(4) article:nth-of-type(2){
   height: 55vh;
   background: url(img/2_mclaren.jpg);
   background-size: cover;
@@ -151,7 +151,7 @@ video{
   background-position: center;
 }
 
-.h section:nth-of-type(4) article:last-of-type{
+section:nth-of-type(4) article:last-of-type{
   background: url(img/mclaren_gts.png);
   background-size: cover;
   height: 55vh;
@@ -160,7 +160,7 @@ video{
   background-position: center;
 }
 
-.h section:nth-of-type(5) article:first-of-type{
+section:nth-of-type(5) article:first-of-type{
   background: url(img/artura.jpg);
   background-size: cover;
   height: 40vh;
@@ -169,7 +169,7 @@ video{
   background-position: center;
 }
 
-.h section:nth-of-type(5) article:last-of-type{
+section:nth-of-type(5) article:last-of-type{
   background: url(img/piastri.jpg);
   background-size: cover;
   height: 40vh;
@@ -210,16 +210,16 @@ section:nth-of-type(6) article:last-of-type{
   background: url(img/bg_section_1.jpg);
 }
 
-.h section:nth-of-type(4) h1:first-of-type{
+section:nth-of-type(4) h1:first-of-type{
   font-size: 2.5em;
   margin-bottom: 0;
 }
 
-.h section:nth-of-type(4) button:first-of-type{
+section:nth-of-type(4) button:first-of-type{
   margin-bottom: 0;
 }
 
-.h section:nth-of-type(5) button{
+section:nth-of-type(5) button{
   border: 0;
 }
 
@@ -256,4 +256,24 @@ section:nth-of-type(6) article:last-of-type{
 
 .dp section:nth-last-of-type(2){
   height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  section:first-of-type{
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  section:first-of-type > img{
+    width: 100em;
+    height: 100%;
+  }
+  article:has(h1){
+    font-size: 2em;
+    width: 30em;
+  }
+  article:first-of-type h2{
+    color: white;
+  }
 }
