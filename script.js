@@ -14,9 +14,10 @@ function myFunction() {
       Array.prototype.forEach.call(layers, function(layer) {
           var speed = layer.getAttribute('data-speed');
   
-          var x = (window.innerWidth - e.pageX * speed) / 100;
-          var y = (window.innerHeight - e.pageY * speed) / 100;
+          var x = (window.innerWidth - e.pageX * speed) / 200;
+          var y = (window.innerHeight - e.pageY * speed) / 200;
   
           layer.style.transform = 'translateX(' + x + 'px) translateY(' + y + 'px)';
+          layer.style.backgroundPosition = x + "px " + y + "px";
       });
   }

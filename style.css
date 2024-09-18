@@ -92,6 +92,7 @@ section:nth-of-type(2){
   background: linear-gradient(270deg, rgb(82, 82, 82), rgb(51, 51, 51));
   color: white;
   padding: 1em;
+  display: flex;
 }
 
 section:nth-of-type(2) h1{
@@ -263,12 +264,11 @@ section:nth-of-type(5) button{
     background-repeat: no-repeat;
     width: 100vw;
     background-size: cover;
+    background-position: center;
+    background-image: url(img/bg_bigscreen.png);
+    z-index: 1;
   }
 
-  section:first-of-type > img{
-    width: 100em;
-    height: 100%;
-  }
   article:has(h1){
     font-size: 2em;
     width: 30em;
