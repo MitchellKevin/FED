@@ -250,7 +250,7 @@ section:nth-of-type(5) button{
 }
 
 /* Detail page */
-.dp section:first-of-type{
+/* .dp section:first-of-type{
   width: 100vw;
   height: 5vh;
 }
@@ -285,7 +285,7 @@ section:nth-of-type(5) button{
 
 .dp section:nth-last-of-type(2){
   height: 100vh;
-}
+} */
 
 @media screen and (min-width: 600px) {
   section:first-of-type{
