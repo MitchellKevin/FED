@@ -105,7 +105,8 @@ body {
     height: 45vh;
     display: flex;
     flex-direction: row;
-    overflow-x: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
   section:nth-of-type(3) img{
     padding-top: 6em;
@@ -114,3 +115,5 @@ body {
     width: 95%;
     height: 24vh;
   }
+
+  
