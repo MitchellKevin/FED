@@ -251,11 +251,14 @@ section:nth-of-type(5) button{
 
 /* Detail page */
 .dp section:first-of-type{
-  position: relative;
   width: 100vw;
-  height: 55vh;
+  height: 5vh;
 }
-
+.dp article:first-of-type{
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
 .dp h1:first-of-type{
   position: absolute;
   left: .5em;
