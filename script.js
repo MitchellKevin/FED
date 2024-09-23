@@ -21,3 +21,13 @@ function myFunction() {
           layer.style.backgroundPosition = x + "px " + y + "px";
       });
   }
+
+  let vid = document.getElementById("interactiveVideo");
+
+  function playVid(){
+    vid.play();
+  }
+
+  function pauseVid(){
+    vid.pause();
+  }

@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "springsteel";
     margin: 0;
     overflow-x: hidden;
   }
@@ -136,12 +136,11 @@ body {
     flex-wrap: nowrap;    
     overflow-x: scroll;
     background-color:#181C20;
-    width: auto;
   }
 
   section:nth-of-type(4) article{
     height: 100vh;
-    width: 200%;
+    width: 100vw;
 
   }
 
@@ -153,4 +152,39 @@ body {
     padding: 1em;
     padding-top: 0em;
   }
+
+  section:nth-of-type(5){
+    padding-top: 5em;
+    margin: 2em;
+  }
+
+  section:nth-of-type(5) h2{
+    font-size: 2em;
+    padding: 0;
+  }
   
+section:nth-of-type(5) video{
+  padding-top: 5em;
+}
+
+section:nth-of-type(6){
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em;
+}
+section:nth-of-type(6) h2{
+  padding: 0;
+  padding-top: 5em;
+  font-size: 2em;
+}
+
+section:nth-of-type(6) img{
+  object-fit: cover;
+  padding: 0;
+  width: 50%;
+  height: 5em;
+}
+
+section:nth-of-type(6) video{
+  width: 100%;
+}
