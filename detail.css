@@ -177,7 +177,6 @@ section:nth-of-type(6) h2{
   padding-top: 5em;
   font-size: 2em;
 }
-
 section:nth-of-type(6) img{
   object-fit: cover;
   padding: 0;
@@ -187,4 +186,17 @@ section:nth-of-type(6) img{
 
 section:nth-of-type(6) video{
   width: 100%;
+}
+
+section:nth-of-type(7){
+  margin: 2em;
+}
+
+section:nth-of-type(7) h2{
+  padding: 0;
+  padding-top: 5em;
+}
+
+section:nth-of-type(7) video{
+  padding-top: 3em;
 }

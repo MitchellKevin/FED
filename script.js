@@ -31,3 +31,9 @@ function myFunction() {
   function pauseVid(){
     vid.pause();
   }
+
+  document.body.onkeydown=function userData(e){
+    if(e.keyCode==32){
+      playVid()
+    }
+  }
