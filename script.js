@@ -82,4 +82,4 @@ function myFunction() {
     }, 1); // Check every 100ms
 });
 
-
+let topSpeedCounter = document.querySelector("section:nth-of-type(7) video");
