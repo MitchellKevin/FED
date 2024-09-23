@@ -205,3 +205,49 @@ section:nth-of-type(7) h2{
 section:nth-of-type(7) video{
   padding-top: 3em;
 }
+
+section:nth-of-type(8) button{
+  width: 10vw;
+  height: 4.5vh;
+  margin: 1em;
+  border-radius: 50%;
+}
+
+section:nth-of-type(8) button:first-of-type{
+  background-color: #B70506;
+}
+
+section:nth-of-type(8) button:nth-of-type(2){
+  background-color: #E5E962;
+}
+
+section:nth-of-type(8) button:nth-of-type(3){
+  background-color: #442B54;
+}
+
+section:nth-of-type(8) button:nth-of-type(4){
+  background-color: #3A3A3A;
+}
+
+section:nth-of-type(8) button:nth-of-type(5){
+  background-color: #F0F0F0;
+}
+
+section:nth-of-type(8) button:active{
+  border: solid .2em rgb(255, 153, 0);
+  transform: scale(2);
+  transition: 2s;
+}
+
+.previewContainer{
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+section:nth-of-type(8) img{
+  width: 95%;
+  height: 24vh;
+}
+

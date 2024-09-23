@@ -225,32 +225,36 @@ section:nth-of-type(6) article{
 }
 
 section:nth-of-type(6) article:first-of-type{
-  background: url(img/bg_section_1.jpg);
-  width: auto;
+  background: url(img/Alpine%20Drive%202017-790-36_crop-4x3.webp);
+  height: 40vh;
+  object-fit: cover;
+  background-position: center;
 }
 
 section:nth-of-type(6) article:nth-of-type(2){
-  background: url(img/bg_section_1.jpg);
+  background: url(img/MTC-Hero-1920x1080_crop-4x3.webp);
+  object-fit: fill;
   width: auto;
+  height: 40vh;
 }
 
 section:nth-of-type(6) article:nth-of-type(3){
-  background: url(img/bg_section_1.jpg);
+  background: url(img/p13_570s_spyder_281_range_still_v11_road_plate_lr-14_crop-4x3.webp);
   width: auto;
 }
 
 section:nth-of-type(6) article:nth-of-type(4){
-  background: url(img/bg_section_1.jpg);
+  background: url(img/McLarenArtura-7_crop-4x3.webp);
   width: auto;
 }
 
 section:nth-of-type(6) article:nth-of-type(5){
-  background: url(img/bg_section_1.jpg);
+  background: url(img/MSO_720S%20Spider%20by%20MSO_Wheel_Medium-3_crop-4x3.webp);
   width: auto;
 }
 
 section:nth-of-type(6) article:last-of-type{
-  background: url(img/bg_section_1.jpg);
+  background: url(img/McLaren_Goodwood_FOS_21_01_crop-4x3.webp);
   width: auto;
 }
 
