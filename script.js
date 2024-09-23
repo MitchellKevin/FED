@@ -84,6 +84,7 @@ function myFunction() {
 
 let topSpeedCounter = document.querySelector("section:nth-of-type(7) video");
 
+
 function changeCarColor(){
     document.getElementById("img1Color").src= "img/f1.jpg";
 }
