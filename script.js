@@ -104,17 +104,17 @@ function changeCarColor_to_yellow(){
 function changeCarColor_to_purple(){
     document.getElementById("firstImg").src= "img/EXT_Front%203Qtr1.png";
     document.getElementById("secondImg").src= "img/EXT_Side1.png";
-    document.getElementById("thirdImg").src= "img/f1.jpg";
+    document.getElementById("thirdImg").src= "";
     document.getElementById("forthImg").src= "img/EXT_Rear%203Qtr1.png";
     document.getElementById("fifthImg").src= "img/EXT_Front1.png";
 }
 
 function changeCarColor_to_grey(){
     document.getElementById("firstImg").src= "img/EXT_Front%203Qtr.png";
-    document.getElementById("secondImg").src= "img/f1.jpg";
-    document.getElementById("thirdImg").src= "img/f1.jpg";
+    document.getElementById("secondImg").src= "";
+    document.getElementById("thirdImg").src= "";
     document.getElementById("forthImg").src= "img/EXT_Rear%203Qtr.png";
-    document.getElementById("fifthImg").src= "img/f1.jpg";
+    document.getElementById("fifthImg").src= "";
 }
 
 function changeCarColor_to_white(){
