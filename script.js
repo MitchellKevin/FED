@@ -85,6 +85,42 @@ function myFunction() {
 let topSpeedCounter = document.querySelector("section:nth-of-type(7) video");
 
 
-function changeCarColor(){
-    document.getElementById("img1Color").src= "img/f1.jpg";
+function changeCarColor_to_red(){
+    document.getElementById("firstImg").src= "img/img-front34.png";
+    document.getElementById("secondImg").src= "img/img-side.png";
+    document.getElementById("thirdImg").src= "img/img-rear.png";
+    document.getElementById("forthImg").src= "img/EXT_Rear%203Qtr.png";
+    document.getElementById("fifthImg").src= "img/img-front.png";
+}
+
+function changeCarColor_to_yellow(){
+    document.getElementById("firstImg").src= "img/EXT_Front%203Qtr_1.png";
+    document.getElementById("secondImg").src= "img/EXT_Side.png";
+    document.getElementById("thirdImg").src= "img/EXT_Rear.png";
+    document.getElementById("forthImg").src= "img/EXT_Rear%203Qtr_1.png";
+    document.getElementById("fifthImg").src= "img/EXT_Front.png";
+}
+
+function changeCarColor_to_purple(){
+    document.getElementById("firstImg").src= "img/EXT_Front%203Qtr1.png";
+    document.getElementById("secondImg").src= "img/EXT_Side1.png";
+    document.getElementById("thirdImg").src= "img/f1.jpg";
+    document.getElementById("forthImg").src= "img/EXT_Rear%203Qtr1.png";
+    document.getElementById("fifthImg").src= "img/EXT_Front1.png";
+}
+
+function changeCarColor_to_grey(){
+    document.getElementById("firstImg").src= "img/EXT_Front%203Qtr.png";
+    document.getElementById("secondImg").src= "img/f1.jpg";
+    document.getElementById("thirdImg").src= "img/f1.jpg";
+    document.getElementById("forthImg").src= "img/EXT_Rear%203Qtr.png";
+    document.getElementById("fifthImg").src= "img/f1.jpg";
+}
+
+function changeCarColor_to_white(){
+    document.getElementById("firstImg").src= "img/EXT_Front%203Qtr3.png";
+    document.getElementById("secondImg").src= "img/EXT_Side3.png";
+    document.getElementById("thirdImg").src= "img/EXT_Rear3.png";
+    document.getElementById("forthImg").src= "img/EXT_Rear%203Qtr.png";
+    document.getElementById("fifthImg").src= "img/EXT_Front3.png";
 }
