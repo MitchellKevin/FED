@@ -141,12 +141,12 @@ body {
     flex-wrap: nowrap;    
     overflow-x: scroll;
     background-color:#181C20;
+    width: 100vw;
   }
 
   section:nth-of-type(4) article{
     height: 100vh;
     width: 100vw;
-
   }
 
   section:nth-of-type(4) h3{
@@ -173,9 +173,12 @@ section:nth-of-type(5) video{
 }
 
 section:nth-of-type(6){
+  margin: 2em;
+}
+
+section:nth-of-type(6) div{
   display: flex;
   flex-wrap: wrap;
-  margin: 2em;
 }
 section:nth-of-type(6) h2{
   padding: 0;
@@ -186,7 +189,7 @@ section:nth-of-type(6) img{
   object-fit: cover;
   padding: 0;
   width: 50%;
-  height: 5em;
+  height: 10vh;
 }
 
 section:nth-of-type(6) video{
@@ -204,6 +207,14 @@ section:nth-of-type(7) h2{
 
 section:nth-of-type(7) video{
   padding-top: 3em;
+}
+
+section:nth-of-type(8){
+  background-color: white;
+}
+
+section:nth-of-type(8) h2, section:nth-of-type(8) p{
+  color: black;
 }
 
 section:nth-of-type(8) button{
@@ -247,7 +258,10 @@ section:nth-of-type(8) button:active{
 }
 
 section:nth-of-type(8) img{
-  width: 95%;
-  height: 24vh;
+  width: 150%;
+  height: 40vh;
 }
 
+@media screen and (min-width: 600px) {
+
+}
