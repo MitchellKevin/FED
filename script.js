@@ -124,3 +124,5 @@ function changeCarColor_to_white(){
     document.getElementById("forthImg").src= "img/EXT_Rear_203Qtr3.png";
     document.getElementById("fifthImg").src= "img/EXT_Front3.png";
 }
+
+// Add nog een class selecter en querySelecter

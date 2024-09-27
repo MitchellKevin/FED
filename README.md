@@ -27,3 +27,16 @@ Resultaat zijn een paar dingen waar ik onvoldoende op scoor voor met de (empty) 
 #Vragen bij laatste voortgang gesprek
 De vragen die ik heb voor het laatste is of het erg is als sommige imges het niet en of dit eruit ziet als slechte vormgeving?
 Antwoorden hierop waren:
+Ik moest de % veranderen naar iets anders heb dus gekozen voor duidelijke _. Dit komt, omdat de website/mijn JS niet de pagina kon vinden door die spatie.
+
+
+Andere dingen die ik hier heb geleerd waren:
+// class selecter en querySelecter moeten in de JS
+
+//[class="test"]{
+  section:nth-of-type(2){
+    background-color: orange;
+  }
+}
+
+//CSS animatie laten zien met dat de auto bijv dat ie weg rijd en dan weer terug komt op hover bijv kan bijvoorbeeld op de tweede pagina de tweede section
