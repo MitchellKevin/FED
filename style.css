@@ -381,3 +381,10 @@ section:nth-of-type(5) button{
     width: auto;
   }
 }
+
+
+/* [class="test"]{
+  section:nth-of-type(2){
+    background-color: orange;
+  }
+} */
