@@ -100,7 +100,7 @@ body {
   }
   section:nth-of-type(2){
     background-color: black;
-    height: 80vh;
+    height: 100vh;
   }
   section:nth-of-type(2) p, h2{
     font-family: "springsteel";
@@ -111,6 +111,12 @@ body {
   
   section:nth-of-type(2) h2{
     padding-top: 5em;
+  }
+
+  section:nth-of-type(2) img:hover{
+    position: relative;
+    animation-name: movingCar;
+    animation-duration: 4s;
   }
 
   section:first-of-type article:first-of-type{
@@ -264,4 +270,21 @@ section:nth-of-type(8) img{
 
 @media screen and (min-width: 600px) {
 
+}
+
+@keyframes movingCar{
+  0%{
+    left: -50em;
+    transform: scaleX(-1)
+  }
+  25%{
+    right: 0;
+  }
+  50%{
+    right: -1em;
+    transform: rotateY('180deg');
+  }
+  100%{
+    
+  }
 }
