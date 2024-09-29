@@ -24,11 +24,11 @@ body {
   border: orange double 1em;
 }
 
-a:first-of-type{
+body > a{
   opacity: 0;
 }
 
-a:first-of-type:focus{
+body a:first-of-type:focus{
   color: white;
   opacity: 1;
 }
@@ -201,7 +201,7 @@ section:nth-of-type(4) article:first-of-type{
 
 .laser {
   position: absolute;
-  top: 274%;
+  top: 277%;
   left: 107%;
   width: 15em; /* Length of the laser beam */
   height: .5em;
@@ -212,7 +212,7 @@ section:nth-of-type(4) article:first-of-type{
 
 .laser2 {
   position: absolute;
-  top: 274%;
+  top: 277%;
   left: 120%;
   width: 15em; /* Length of the laser beam */
   height: .5em;
