@@ -83,21 +83,28 @@ section:first-child h2{
   --linear: linear-gradient(270deg, #ff2600, #fc8b00);
 }
 
-section:first-child button{
+::selection{
+  background-color: rgb(255, 123, 0);
+  color: black;
+}
+
+section:first-child a{
+  margin: 2em;
+  display: inline-block;
   border-color: transparent;
+  padding-top: 1%;
   box-shadow: 0 .3em 1em color(var(--linear));
-  width: 25em;
-  height: 4.7em;
+  width: 10em;
+  height: 2em;
+  text-align: center;
   background: var(--linear);
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
   border-radius: 2rem;
   transform: translateX(5%)
 }
 
-section:first-child button a{
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
 
 
 section:nth-of-type(2){

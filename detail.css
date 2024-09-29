@@ -4,6 +4,10 @@ body {
     overflow-x: hidden;
     background-color: #181C20;
   }
+  ::selection{
+    background-color: rgb(255, 123, 0);
+    color: black;
+  }
   p{
     color: white;
   }
