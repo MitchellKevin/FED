@@ -16,11 +16,11 @@ body {
   }
 
   /* Skip link css */
-  a:first-of-type{
+  body > a{
     opacity: 0;
   }
-
-  a:first-of-type:focus{
+  
+  body a:first-of-type:focus{
     color: white;
     opacity: 1;
   }
@@ -82,7 +82,7 @@ body {
   
   .active {
     background-color: #000000;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 150, 14);
   }
   
 
@@ -333,6 +333,12 @@ section:nth-of-type(8) video{
     font-size: 1.8em;
     width: auto;
   }
+}
+
+footer{
+  background-color: black;
+  height: 5em;
+  width: 100%;
 }
 
 /* CSS Animatie om de auto te laten bewegen */

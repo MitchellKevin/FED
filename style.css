@@ -444,6 +444,20 @@ section:nth-of-type(5) button{
   }
 }
 
+article:has(input){
+  margin: 1em;
+}
+
+article:has(input) div{
+  display: flex;
+  flex-direction: row;
+}
+
+footer{
+  background-color: black;
+  height: 5em;
+  width: 100%;
+}
 
 /* CSS animatie voor de lasers vanuit de ogen van Ayrthon*/
 @keyframes laser {
