@@ -52,3 +52,7 @@ Antwoorden hierop waren: Ik moest de % veranderen naar iets anders heb dus gekoz
 
 #Eindgesprek
 Ik ben erg trots op mijn eindresultaat ook al zijn er nog een paar dingen die ik had willen leren, maar echt ver buiten mijn codeer niveau lag. Verder is het ook gelukt met de laser ogen (; 
+
+Voor het eindgesprek had ik nog een keer een test gedaan met de screen reader en ik merkte dat het perfect werkte naast dat veel buttons nog hetzelfe zeiden dus dit was nog even snel aangepast met aria-labels, maar verder was de screen reader een prettige ervaring. Het is dan ook een gigantisch verschil dan met die van de Mclaren Automotive site zelf.
+
+Ik ben erg trots op mijn eindproduct en ga het zeker kijken of ik het op mijn portolio ga zetten.
