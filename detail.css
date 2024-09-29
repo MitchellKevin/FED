@@ -119,9 +119,9 @@ body {
   }
 
   section:nth-of-type(2) img:hover{
-    position: relative;
+    position: absolute;
     animation-name: movingCar;
-    animation-duration: 4s;
+    animation-duration: 8s;
   }
 
   section:first-of-type article:first-of-type{
@@ -301,6 +301,33 @@ section:nth-of-type(8) video{
     transform: rotateY('180deg');
   }
   100%{
+    
+  }
+}
+
+@keyframes movingCar {
+  0% {
+      transform: translateX(0) scaleX(1); /* Initial position */
+  }
+  12.5%{
+    transform: translateX(-100vw) scaleX(1);
+  }
+  25% {
+      transform: translateX(-100vw) scaleX(-1); /* Move off-screen to the left and flip horizontally */
+  }
+  37.5%{
+    transform: translateX(0) scaleX(-1);
+  }
+  50% {
+      transform: translateX(100vw) scaleX(-1);
+  }
+  62.5%{
+    transform: translateX(100vw) scaleX(1);
+  }
+  75% {
+      transform: translateX(0) scale(1);
+  }
+  100% {
     
   }
 }
