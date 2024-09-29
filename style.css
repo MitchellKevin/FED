@@ -445,18 +445,20 @@ section:nth-of-type(5) button{
 }
 
 
-/* CSS animatie voor de lasers vanuit de ogen van Ayrthon Senna*/
+/* CSS animatie voor de lasers vanuit de ogen van Ayrthon*/
 @keyframes laser {
   0% {
-      transform: translate(-50%, -50%) scaleX(0); /* Laser off */
+      transform: translate(-50%, -50%) scaleX(0); 
   }
   50% {
-      transform: translate(-50%, -50%) scaleX(-5) rotate(40deg); /* Laser fires */
+      transform: translate(-50%, -50%) scaleX(-5) rotate(40deg);
   }
   100% {
-      transform: translate(-50%, -50%) scaleX(0); /* Laser off */
+      transform: translate(-50%, -50%) scaleX(0);
   }
 }
+
+
 
 /* @keyframes onScrollAnimation{
   from{

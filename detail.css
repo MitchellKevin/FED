@@ -167,7 +167,7 @@ body {
     padding-left: 1em;
     padding-right: 1em;
     width: 95%;
-    height: 24vh;
+    height: 40%;
     scroll-snap-align: start;
   }
 
@@ -225,6 +225,10 @@ section:nth-of-type(6){
 section:nth-of-type(6) div{
   display: flex;
   flex-wrap: wrap;
+}
+
+section:nth-of-type(6) div div{
+  width: 100%;
 }
 section:nth-of-type(6) h2{
   padding: 0;
@@ -312,6 +316,16 @@ section:nth-of-type(8) video{
 
 
 @media screen and (min-width: 1300px){ 
+  section:nth-of-type(6) div{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  section:nth-of-type(6) div div img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100%;
+  }
   section:nth-of-type(4) h3{
     width: auto;
   }
