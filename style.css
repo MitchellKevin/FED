@@ -4,13 +4,18 @@
 
 
 body {
+  overflow-x: hidden;
   font-family: "springsteel";
   margin: 0;
   overflow-x: hidden;
   background-color: #181C20;
 }
 
-
+/* article + .onScrollItem{
+  animation: onScrollAnimation linear;
+  animation-timeline: view();
+  animation-range: entry 0;
+} */
 .mobile-container {
   max-width: 480px;
   margin: auto;
@@ -87,6 +92,7 @@ section:first-child h2{
   background-color: rgb(255, 123, 0);
   color: black;
 }
+
 
 section:first-child a{
   margin: 2em;
@@ -225,9 +231,6 @@ section:nth-of-type(5) article:last-of-type{
   background-position: center;
 }
 
-section:nth-of-type(6) article{
-}
-
 section:nth-of-type(6) article:first-of-type{
   background: url(img/Alpine_20Drive_202017-790-36_crop-4x3.webp);
   background-size: cover;
@@ -339,7 +342,7 @@ section:nth-of-type(5) button{
   height: 100vh;
 } */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1300px) {
   section:first-of-type{
     background-repeat: no-repeat;
     width: 100vw;
@@ -452,5 +455,14 @@ section:nth-of-type(5) button{
 /* [class="test"]{
   section:nth-of-type(2){
     background-color: orange;
+  }
+} */
+
+/* @keyframes onScrollAnimation{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
   }
 } */
