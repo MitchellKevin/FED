@@ -365,6 +365,7 @@ section:nth-of-type(5) button{
   height: 100vh;
 } */
 
+
 @media screen and (min-width: 1300px) {
   section:first-of-type{
     background-repeat: no-repeat;
@@ -410,15 +411,10 @@ section:nth-of-type(5) button{
     overflow-x: auto;
     flex-wrap: nowrap;
   }
-  section:nth-of-type(4) article:first-of-type{
+  section:nth-of-type(4) article{
     height: 75vh;
   }
-  section:nth-of-type(4) article:nth-of-type(2){
-    height: 75vh;
-  }
-  section:nth-of-type(4) article:nth-of-type(3){
-    height: 75vh;
-  }
+
   section:nth-of-type(5) article:first-of-type{
     width: 45%;
     height: 60vh;
@@ -473,6 +469,7 @@ section:nth-of-type(5) button{
     height: 60vh;
   }
 }
+
 
 
 @keyframes laser {
