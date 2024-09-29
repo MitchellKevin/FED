@@ -309,16 +309,28 @@ section:nth-of-type(8) h2{
 section:nth-of-type(8) video{
   padding-top: 3em;
 }
+
+
+@media screen and (min-width: 1300px){ 
+  section:nth-of-type(4) h3{
+    width: auto;
+  }
+  section:nth-of-type(4) article:nth-of-type(3) h3{
+    font-size: 1.8em;
+    width: auto;
+  }
+}
+
 /* CSS Animatie om de auto te laten bewegen */
 @keyframes movingCar {
   0% {
-      transform: translateX(0) scaleX(1); /* Initial position */
+      transform: translateX(0) scaleX(1);
   }
   12.5%{
     transform: translateX(-100vw) scaleX(1);
   }
   25% {
-      transform: translateX(-100vw) scaleX(-1); /* Move off-screen to the left and flip horizontally */
+      transform: translateX(-100vw) scaleX(-1);
   }
   37.5%{
     transform: translateX(0) scaleX(-1);
