@@ -198,7 +198,7 @@ section:nth-of-type(4) article:first-of-type{
 
 .laser {
   position: absolute;
-  top: 277%;
+  top: 267%;
   left: 107%;
   width: 15em;
   height: .5em;
@@ -210,7 +210,7 @@ section:nth-of-type(4) article:first-of-type{
 
 .laser2 {
   position: absolute;
-  top: 277%;
+  top: 267%;
   left: 120%;
   width: 15em; 
   height: .5em;
