@@ -16,7 +16,7 @@ body {
     width: 50%;
     height: 3.2em;
     background-color: transparent;
-    border-color: #6C747A;
+    border-color: #7a746c;
     border-width: .2em;
     border-style: solid;
     color: #6C747A;
@@ -26,7 +26,7 @@ body {
   .mobile-container {
     max-width: 480px;
     margin: auto;
-    background-color: #ffffff;
+    background-color: #000000;
     height: 500px;
     color: rgb(94, 94, 94);
     border-radius: 10px;
@@ -34,7 +34,7 @@ body {
   
   .topnav {
     overflow: hidden;
-    background-color: #fdfdfd;
+    background-color: #000000;
   }
   
   .topnav #myLinks {
@@ -42,7 +42,7 @@ body {
   }
   
   .topnav a {
-    color: rgb(94, 94, 94);
+    color: rgb(252, 169, 16);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -50,7 +50,7 @@ body {
   }
   
   .topnav a.icon {
-    background: black;
+    background: rgb(255, 150, 14);
     display: block;
     position: absolute;
     right: 0;
@@ -58,12 +58,12 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #000000;
     color: black;
   }
   
   .active {
-    background-color: #ffffff;
+    background-color: #000000;
     color: rgb(255, 255, 255);
   }
   

@@ -22,25 +22,6 @@ function myFunction() {
       });
   }
 
-  // let vid = document.getElementById("interactiveVideo");
-
-  // function playVid(){
-  //   vid.play();
-  // }
-
-  // function pauseVid(){
-  //   vid.pause();
-  // }
-
-  // document.body.onkeydown = function userData(e){
-  //   if(e.keyCode==66){
-  //     playVid()
-  //     console.log("werkt")
-  //   }
-  //   else{
-  //     pauseVid()
-  //   }
-  // }
   document.addEventListener('DOMContentLoaded', function () {
     let vid = document.getElementById("interactiveVideo");
     let isSpacebarDown = false;
@@ -54,36 +35,30 @@ function myFunction() {
     }
 
     function restartVid() {
-        vid.currentTime = 0; // Reset video to the beginning
-        vid.play(); // Optionally start playing again
+        vid.currentTime = 0; 
+        vid.play(); 
     }
 
-    // Detect if the spacebar (keyCode 32) is pressed
     document.body.addEventListener('keydown', function(e) {
-        if (e.keyCode === 32) { // Spacebar pressed
+        if (e.keyCode === 32) { 
             isSpacebarDown = true;
         }
     });
 
-    // Detect if the spacebar is released
     document.body.addEventListener('keyup', function(e) {
-        if (e.keyCode === 32) { // Spacebar released
+        if (e.keyCode === 32) { 
             isSpacebarDown = false;
         }
     });
 
-    // Set up an interval to check the spacebar status continuously
     setInterval(function() {
         if (isSpacebarDown) {
-            playVid(); // Play the video if spacebar is pressed
+            playVid();
         } else {
-            restartVid(); // Restart the video if spacebar is not pressed
+            restartVid(); 
         }
-    }, 1); // Check every 100ms
+    }, 1);
 });
-
-let topSpeedCounter = document.querySelector("section:nth-of-type(7) video");
-
 
 function changeCarColor_to_red(){
     document.getElementById("firstImg").src= "img/img-front34.png", document.getElementById("firstImg").alt="Sky view of the front of a mcLaren 750s in the color red";

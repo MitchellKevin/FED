@@ -19,7 +19,7 @@ body {
 .mobile-container {
   max-width: 480px;
   margin: auto;
-  background-color: #ffffff;
+  background-color: #000000;
   height: 500px;
   color: rgb(94, 94, 94);
   border-radius: 10px;
@@ -27,7 +27,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #fdfdfd;
+  background-color: #000000;
 }
 
 .topnav #myLinks {
@@ -35,7 +35,7 @@ body {
 }
 
 .topnav a {
-  color: rgb(94, 94, 94);
+  color: rgb(252, 169, 16);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -43,7 +43,7 @@ body {
 }
 
 .topnav a.icon {
-  background: black;
+  background: rgb(255, 150, 14);
   display: block;
   position: absolute;
   right: 0;
@@ -51,14 +51,15 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #000000;
   color: black;
 }
 
 .active {
-  background-color: #ffffff;
+  background-color: #000000;
   color: rgb(255, 255, 255);
 }
+
 
 section:first-child{
   background-image: url(img/bg_section_1.jpg);
@@ -183,6 +184,28 @@ section:nth-of-type(4) article:first-of-type{
   background-size: cover;
   padding: 1em;
   width: 100%;
+}
+
+.laser {
+  position: absolute;
+  top: 274%;
+  left: 107%;
+  width: 15em; /* Length of the laser beam */
+  height: .5em;
+  background: var(--linear);
+  transform-origin: 0 50%;
+  animation: laser 2s infinite;
+}
+
+.laser2 {
+  position: absolute;
+  top: 274%;
+  left: 120%;
+  width: 15em; /* Length of the laser beam */
+  height: .5em;
+  background: var(--linear);
+  transform-origin: 0 50%;
+  animation: laser 2s infinite;
 }
 
 section:nth-of-type(4) article:nth-of-type(2){
@@ -451,6 +474,18 @@ section:nth-of-type(5) button{
   }
 }
 
+
+@keyframes laser {
+  0% {
+      transform: translate(-50%, -50%) scaleX(0); /* Laser off */
+  }
+  50% {
+      transform: translate(-50%, -50%) scaleX(-5) rotate(40deg); /* Laser fires */
+  }
+  100% {
+      transform: translate(-50%, -50%) scaleX(0); /* Laser off */
+  }
+}
 
 /* [class="test"]{
   section:nth-of-type(2){
