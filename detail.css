@@ -4,15 +4,18 @@ body {
     overflow-x: hidden;
     background-color: #181C20;
   }
+  /* custom selectie voor als je tekst selecteert */
   ::selection{
     background-color: rgb(255, 123, 0);
     color: black;
   }
 
+  /* custom :focus */
  :focus{
     border: orange double 1em;
   }
 
+  /* Skip link css */
   a:first-of-type{
     opacity: 0;
   }
@@ -37,6 +40,7 @@ body {
     font-weight:800;
   }
 
+  /* header */
   .mobile-container {
     max-width: 480px;
     margin: auto;
@@ -149,6 +153,7 @@ body {
     height: 50vh;
   }
 
+  /* on snap op de carosel */
   section:nth-of-type(3){
     background-color: #181C20;
     height: 45vh;
@@ -252,6 +257,7 @@ section:nth-of-type(7) button{
   border-radius: 50%;
 }
 
+/* buttons voor het veranderen van de kleur van de auto */
 section:nth-of-type(7) button:first-of-type{
   background-color: #B70506;
 }
@@ -303,11 +309,7 @@ section:nth-of-type(8) h2{
 section:nth-of-type(8) video{
   padding-top: 3em;
 }
-
-@media screen and (min-width: 600px) {
-
-}
-
+/* CSS Animatie om de auto te laten bewegen */
 @keyframes movingCar {
   0% {
       transform: translateX(0) scaleX(1); /* Initial position */

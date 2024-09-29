@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <!-- Skip link die leid naar de id die hier de section waar je de kleur van de auto kan uitkiezen -->
         <a class="skip-link" href="#main_content">Skip to main content</a>
         <div class="topnav">
             <a href="index.html" class="active">Mclaren</a>
@@ -21,7 +22,7 @@
               <a href="detail.html">ABOUT</a>
               <a href="detail.html">PRE-OWNED</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon" onclick="header()">
               <i class="fa fa-bars"></i>
             </a>
           </div>
@@ -81,6 +82,7 @@
                 Sublime agility, nuanced feedback, exceptional comfort and usability combine to provide an uncompromised supercar that delivers the purest possible driving experience. A definitively new benchmark.</p>
             <video src="vids/P28_XRay_film-0x360-730k.mp4" loop muted autoplay></video>
         </section>
+        <!-- In deze section staan lege alt's, want dit brengt geen extra waarden naar mijn mening -->
         <section>
             <h2>PURER ENGAGEMENT</h2>
             <p>The 750S takes the mind-bending performance, telepathic handling and lightning responses of the McLaren 720S further. Towards the point where car and driver work as one. From flat-out circuits. To sinuous A-roads. The McLaren ethos drives a constant search for more performance. Less weight. And perfectly judged balance. The objective is deceptively simple in its ambition: class-leading, addictive engagement.<br><br>30HP more power and 30Nm more than 720S torque play their part. So does 30kg less overall weight. And a 6mm front wider track, twin valve dampers, a quicker steering rack and 15% shorter final drive. As revs rise and the new Standard Sports Exhaust howls, you'll soon understand what a new benchmark in engagement really means.</p>
@@ -93,9 +95,11 @@
                 <video src="vids/Overview_Page_Hero_Preview-0x360-730k.mp4" muted loop autoplay></video>
             </div>
         </section>
+        <!-- De skip link bovenin ging naar deze section -->
         <section id="main_content">
             <h2>DISCOVER MSO BESPOKE</h2>
             <p>This is only the beginning. Specially curated MSO Bespoke Packs to suit evvery personality. Contact your Retailer to find out more.</p>
+            <!-- Bij deze color selecter kan de gebruiker een kleur kiezen van de auto met een onclick van JS -->
             <div class="colorSelecter">
                 <button aria-label="Change car color to red" onclick="changeCarColor_to_red()"></button>
                 <button aria-label="Change car color to yellow" onclick="changeCarColor_to_yellow()"></button>
@@ -103,6 +107,7 @@
                 <button aria-label="Change car color to grey" onclick="changeCarColor_to_grey()"></button>
                 <button aria-label="Change car color to white" onclick="changeCarColor_to_white()"></button>
             </div>
+            <!-- De kleur die gekozen wordt, worden hier de afbeeldingen gemanipuleerd door JS naar de correcte kleuren -->
             <div class="previewContainer">
                 <img src="img/img-front34.png" id="firstImg" alt="Sky view of the front of a mcLaren 750s in the color red">
                 <img src="img/img-side.png" id="secondImg" alt="The side of a mcLaren 750s in the color red">
@@ -110,34 +115,13 @@
                 <img src="img/EXT_Rear%203Qtr.png" id="forthImg" alt="Sky view of the back of a mcLaren 750s in the color red">
                 <img src="img/img-front.png" id="fifthImg" alt="The front of a mcLaren 7550s in the color red">
             </div>
-        </section> 
+        </section>
+         <!--In deze sectie staat een interactieve video gestuurd met JS  -->
         <section>
             <h2>PERFORMANCE EVOLVED</h2>
             <p>Incredible, enhanced power. Stirring, original voice. The all-new central-exit Standard Sports Exhaust has been acoustically tuned to create a 750S soundtrack that's all its own.</p>
             <video src="vids/750S_Feel_the_drive-0x360-730k.mp4" muted id="interactiveVideo"></video>
         </section>
-       <!-- <section>
-            <h2>DISCOVER MSO BESPOKE</h2>
-            <p>This is only the beginning. Specially curated MSO Bespoke Packs to suit evvery personality. Contact your Retailer to find out more.</p>
-            <div class="colorSelecter">
-                <button aria-label="Change car color to red" onclick="changeCarColor_to_red()"></button>
-                <button aria-label="Change car color to yellow" onclick="changeCarColor_to_yellow()"></button>
-                <button aria-label="Change car color to purple" onclick="changeCarColor_to_purple()"></button>
-                <button aria-label="Change car color to grey" onclick="changeCarColor_to_grey()"></button>
-                <button aria-label="Change car color to white" onclick="changeCarColor_to_white()"></button>
-            </div>
-            <div class="previewContainer">
-                <img src="img/img-front34.png" id="firstImg" alt="Sky view of the front of a mcLaren 750s in the color red">
-                <img src="img/img-side.png" id="secondImg" alt="The side of a mcLaren 750s in the color red">
-                <img src="img/img-rear.png" id="thirdImg" alt="The back of a mcLaren 750s in the color red">
-                <img src="img/EXT_Rear%203Qtr.png" id="forthImg" alt="Sky view of the back of a mcLaren 750s in the color red">
-                <img src="img/img-front.png" id="fifthImg" alt="The front of a mcLaren 7550s in the color red">
-            </div>
-        </section>  -->
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
     </main>
     <footer></footer>
 </body>

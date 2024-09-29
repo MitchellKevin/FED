@@ -1,4 +1,5 @@
-function myFunction() {
+// Header pop down
+function header() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
       x.style.display = "none";
@@ -7,6 +8,7 @@ function myFunction() {
     }
   }
 
+//   Parallax effect met mouse movent
   document.addEventListener("mousemove", parallax);
 
   function parallax(e) {
@@ -22,6 +24,7 @@ function myFunction() {
       });
   }
 
+//   Interactieve video, het controleert of de spatiebalk(keycode=32) naar beneden speelt de video af, maar als je de spatiebalk los laat stop hij meteen door de lagen controleer tijd
   document.addEventListener('DOMContentLoaded', function () {
     let vid = document.getElementById("interactiveVideo");
     let isSpacebarDown = false;
@@ -60,6 +63,7 @@ function myFunction() {
     }, 1);
 });
 
+// Dit is om de een kleur en alt's van de auto's te veranderen op basis van de input van de gebruiker
 function changeCarColor_to_red(){
     document.getElementById("firstImg").src= "img/img-front34.png", document.getElementById("firstImg").alt="Sky view of the front of a mcLaren 750s in the color red";
     document.getElementById("secondImg").src= "img/img-side.png", document.getElementById("secondImg").alt="The side of a mcLaren 750s in the color red";
@@ -99,5 +103,3 @@ function changeCarColor_to_white(){
     document.getElementById("forthImg").src= "img/EXT_Rear_203Qtr3.png", document.getElementById("forthImg").alt="The side of a mcLaren 750s in the color white";
     document.getElementById("fifthImg").src= "img/EXT_Front3.png", document.getElementById("fifthImg").alt="The side of a mcLaren 750s in the color white";
 }
-
-// Add nog een class selecter en querySelecter

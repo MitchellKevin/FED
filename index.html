@@ -8,6 +8,7 @@
     <title>Home</title>
 </head>
 <body>
+  <!-- Deze skip link lijdt naar de eerste section van deze pagina -->
   <a class="skip-link" href="#main_content">Skip to main content</a>
     <header>
         <div class="topnav">
@@ -20,19 +21,20 @@
               <a href="detail.html">ABOUT</a>
               <a href="detail.html">PRE-OWNED</a>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon" onclick="header()">
               <i class="fa fa-bars"></i>
             </a>
           </div>
     </header>
     <main>
       <!-- Paralex event: https://www.youtube.com/watch?v=dqzZ0SbSgHY -->
+       <!-- Parallax effect. De verschillende waarde geven de snelheid van de elementen aan en door de class layer(laag) wordt in mijn JS deze classes allemaal aangesproken
+        en door de data-speed dus verschillende snelheiden geeft waardoor het een 3D effect geeft(zorgt voor diepte) -->
       <section class="layer" data-speed="1" id="main_content">
         <article>
           <h2 class="layer" data-speed="2">PERFORMANCE AMPLIFIED</h2>
           <h1 class="layer" data-speed="2">THE NEW McLAREN ARTURA SPIDER</h1>
           <a class="layer" data-speed="2" href="detail.html">DISCOVER</a>
-          <!-- <img src="img/bg_bigscreen.png"> -->
         </article>
       </section>
       <section>
@@ -43,11 +45,9 @@
         </div>
       </section>
       <section>
-        <video autoplay src="/vids/Overview_Page_Hero_Preview-0x360-730k.mp4" loop muted></video>
-        <!-- <img src="">
-        <img src=""> -->
-        <img src="img/f1.jpg">
-        <video autoplay src="vids/750s_Hero_Preview-0x360-730k.mp4" loop muted></video>
+        <video autoplay src="/vids/Overview_Page_Hero_Preview-0x360-730k.mp4" loop muted aria-label="Video van een witte mclaren 750s spider in fabriek waar het mooie intereur te zien. Deze is afgewerkt met op hoge niveau stiching"></video>
+        <img src="img/f1.jpg" alt="Foto van de racende f1 auto van mclaren">
+        <video autoplay src="vids/750s_Hero_Preview-0x360-730k.mp4" loop muted aria-label="Video van een rode mclaren 750s in actie op de snelweg"></video>
       </section>
       <section>
         <article>
@@ -82,7 +82,7 @@
             <button>> READ FULL STORY</button>
         </article>
       </section>
-      <article class="test">
+      <article>
         <h1>ENQUIRE TO BUY</h1>
         <p>Your preferred retailer will be in contact with you within the next 48 hours to discuss your enquiry</p>
         <button>ENQUIRE</button>
@@ -122,7 +122,6 @@
       </article>
     </main>
     <footer>
-        
     </footer>
 </body>
 </html>
