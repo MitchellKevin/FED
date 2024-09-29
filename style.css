@@ -11,6 +11,18 @@ body {
   background-color: #181C20;
 }
 
+:root{
+  --linear: linear-gradient(270deg, #ff2600, #fc8b00);
+}
+
+::selection{
+  background-color: rgb(255, 123, 0);
+  color: black;
+}
+
+*:focus{
+  border: orange double 1em;
+}
 /* article + .onScrollItem{
   animation: onScrollAnimation linear;
   animation-timeline: view();
@@ -85,14 +97,6 @@ section:first-child h2{
   padding-left: 1.5em;
 }
 
-:root{
-  --linear: linear-gradient(270deg, #ff2600, #fc8b00);
-}
-
-::selection{
-  background-color: rgb(255, 123, 0);
-  color: black;
-}
 
 
 section:first-child a{
