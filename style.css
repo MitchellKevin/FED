@@ -198,8 +198,8 @@ section:nth-of-type(4) article:first-of-type{
 
 .laser {
   position: absolute;
-  top: 266%;
-  left: 107%;
+  top: 265%;
+  left: 78%;
   width: 15em;
   height: .5em;
   background: var(--linear);
@@ -210,8 +210,8 @@ section:nth-of-type(4) article:first-of-type{
 
 .laser2 {
   position: absolute;
-  top: 267%;
-  left: 120%;
+  top: 264%;
+  left: 93%;
   width: 15em; 
   height: .5em;
   background: var(--linear);
@@ -462,13 +462,13 @@ footer{
 /* CSS animatie voor de lasers vanuit de ogen van Ayrthon*/
 @keyframes laser {
   0% {
-      transform: translate(-50%, -50%) scaleX(0); 
+      transform: scaleX(0); 
   }
   50% {
-      transform: translate(-50%, -50%) scaleX(-5) rotate(40deg);
+      transform: scaleX(-5) rotate(40deg);
   }
   100% {
-      transform: translate(-50%, -50%) scaleX(0);
+      transform: scaleX(0);
   }
 }
 
