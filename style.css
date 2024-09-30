@@ -240,6 +240,19 @@ section:nth-of-type(4) article:last-of-type{
   background-position: center;
 }
 
+section:nth-of-type(4) h1:first-of-type{
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+section:nth-of-type(4) button:first-of-type{
+  margin-bottom: 0;
+}
+
+section:nth-of-type(5) button{
+  border: 0;
+}
+
 section:nth-of-type(5){
   display: flex;
   flex-direction: row;
@@ -264,6 +277,12 @@ section:nth-of-type(5) article:last-of-type{
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+section:nth-of-type(6){
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 section:nth-of-type(6) article:first-of-type{
@@ -326,18 +345,6 @@ section:nth-of-type(6) article:last-of-type{
   background-position: center;
 }
 
-section:nth-of-type(4) h1:first-of-type{
-  font-size: 2.5em;
-  margin-bottom: 0;
-}
-
-section:nth-of-type(4) button:first-of-type{
-  margin-bottom: 0;
-}
-
-section:nth-of-type(5) button{
-  border: 0;
-}
 
 /* Boven een bepaald breedte van het scherm(1300px) veranderen een paar dingen in de vormgeving */
 @media screen and (min-width: 1300px) {
@@ -386,6 +393,12 @@ section:nth-of-type(5) button{
     height: 75vh;
   }
 
+  section:nth-of-type(5){
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
   section:nth-of-type(5) article:first-of-type{
     width: 45%;
     height: 60vh;
@@ -405,8 +418,10 @@ section:nth-of-type(5) button{
 
 
   section:nth-of-type(6){
+    margin-top: 3em;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
